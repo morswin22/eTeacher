@@ -1,0 +1,26 @@
+{
+  "name": "eteacher",
+  "version": "0.0.1",
+  "description": "Personal idea for self-teaching",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morswin22/eTeacher.git"
+  },
+  "keywords": [
+    "learn",
+    "teach"
+  ],
+  "author": "Patryk Janiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morswin22/eTeacher/issues"
+  },
+  "homepage": "https://github.com/morswin22/eTeacher#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
