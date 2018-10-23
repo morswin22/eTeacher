@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body.dashboard {
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: ". . ." ". wrapper ." ". . .";
+    grid-template-columns: auto 1200px auto;
+    grid-template-rows: auto 80% auto;
+}
+
+.wrapper {
+    grid-area: wrapper;
+    // background-color: pink;
+}

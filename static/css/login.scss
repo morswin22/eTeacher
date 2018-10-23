@@ -1,0 +1,40 @@
+.wrapper.login-box {
+    display: grid;
+    grid-template-areas: '. .';
+    grid-gap: 2em;
+
+    &>form {
+        padding: 3em;
+        text-align: center;
+
+        justify-self: center;
+
+        &>span {
+            display: block;
+            padding-bottom: 2em;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        input {
+            font-size: 16px;
+            border: 1px solid #ccc;
+            margin: .6em;
+            padding: .4em;
+            background-color: transparent;
+            outline-color: rgb(52, 175, 52);
+            display: block;
+            border-radius: 3px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+
+    &>div:nth-of-type(1) {
+
+    }
+
+    &>div:nth-of-type(2) {
+        
+    }
+}
